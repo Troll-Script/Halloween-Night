@@ -1,1 +1,344 @@
-loadstring(game:HttpGet('https://pastebin.com/raw/CgqGSiau'))()
+
+
+
+
+
+
+
+ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Halloween Night (Private)", "Sentinel")
+ 
+    -- AutoFarm
+    local AutoFarm = Window:NewTab("Teleports Houses")
+    local AutoFarmSection = AutoFarm:NewSection("Teleports House")
+
+
+
+AutoFarmSection:NewButton("House #1", "Teleports You To House 1", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-69.2305679, 94.175766, 566.702759, -0.99917978, -6.76195953e-08, 0.0404935479, -6.75657432e-08, 1, 2.69828804e-09, -0.0404935479, -3.99019498e-11, -0.99917978 )
+end)
+
+AutoFarmSection:NewButton("House #2", "Teleports You To House 2", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.17996407, 94.1757812, 577.488953, -0.994739771, 2.78605263e-08, 0.102434173, 3.78619838e-08, 1, 9.56935935e-08, -0.102434173, 9.90685862e-08, -0.994739771)
+end)
+
+AutoFarmSection:NewButton("House #3", "Teleports You To House 3", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(84.5078583, 93.4358597, 562.899475, -0.998844206, -5.33205373e-08, 0.0480649732, -5.55550947e-08, 1, -4.51544402e-08, -0.0480649732, -4.7772506e-08, -0.998844206)
+end)
+
+AutoFarmSection:NewButton("House #4", "Teleports You To House 4", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.022034, 94.1757431, 577.117981, -0.999957621, -8.24049184e-09, -0.0092083998, -8.19504109e-09, 1, -4.97359531e-09, 0.0092083998, -4.89792162e-09, -0.999957621)
+end)AutoFarmSection:NewButton("House #5", "Teleports You To House 5", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.050003, 94.1758575, 564.644958, -0.997971535, 1.37914959e-08, -0.0636621639, 1.18024435e-08, 1, 3.1619944e-08, 0.0636621639, 3.08044328e-08, -0.997971535)
+end)
+AutoFarmSection:NewButton("House #6", "Teleports You To House 6", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(249.66925, 94.1757812, 676.185791, 0.998040378, 1.41641818e-08, 0.0625729933, -1.20269119e-08, 1, -3.45330733e-08, -0.0625729933, 3.37128405e-08, 0.998040378)
+end)
+AutoFarmSection:NewButton("House #7", "Teleports You To House 7", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(164.699158, 94.1758575, 685.424805, 0.996465504, -4.05333989e-09, -0.0840027034, 3.38911477e-09, 1, -8.04978395e-09, 0.0840027034, 7.73663711e-09, 0.996465504)
+end)
+AutoFarmSection:NewButton("House #8", "Teleports You To House 8", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.022034, 94.1757431, 577.117981, -0.999957621, -8.24049184e-09, -0.0092083998, -8.19504109e-09, 1, -4.97359531e-09, 0.0092083998, -4.89792162e-09, -0.999957621)
+end)AutoFarmSection:NewButton("House #9", "Teleports You To House 9", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.050003, 94.1758575, 564.644958, -0.997971535, 1.37914959e-08, -0.0636621639, 1.18024435e-08, 1, 3.1619944e-08, 0.0636621639, 3.08044328e-08, -0.997971535)
+end)
+AutoFarmSection:NewButton("House #10", "Teleports You To House 10", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(249.66925, 94.1757812, 676.185791, 0.998040378, 1.41641818e-08, 0.0625729933, -1.20269119e-08, 1, -3.45330733e-08, -0.0625729933, 3.37128405e-08, 0.998040378)
+end)AutoFarmSection:NewButton("House #11", "Teleports You To House 11", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-69.2305679, 94.175766, 566.702759, -0.99917978, -6.76195953e-08, 0.0404935479, -6.75657432e-08, 1, 2.69828804e-09, -0.0404935479, -3.99019498e-11, -0.99917978 )
+end)
+
+AutoFarmSection:NewButton("House #12", "Teleports You To House 12", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.17996407, 94.1757812, 577.488953, -0.994739771, 2.78605263e-08, 0.102434173, 3.78619838e-08, 1, 9.56935935e-08, -0.102434173, 9.90685862e-08, -0.994739771)
+end)
+
+AutoFarmSection:NewButton("House #13", "Teleports You To House 13", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(84.5078583, 93.4358597, 562.899475, -0.998844206, -5.33205373e-08, 0.0480649732, -5.55550947e-08, 1, -4.51544402e-08, -0.0480649732, -4.7772506e-08, -0.998844206)
+end)
+
+AutoFarmSection:NewButton("House #14", "Teleports You To House 14", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.022034, 94.1757431, 577.117981, -0.999957621, -8.24049184e-09, -0.0092083998, -8.19504109e-09, 1, -4.97359531e-09, 0.0092083998, -4.89792162e-09, -0.999957621)
+end)AutoFarmSection:NewButton("House #15", "Teleports You To House 15", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.050003, 94.1758575, 564.644958, -0.997971535, 1.37914959e-08, -0.0636621639, 1.18024435e-08, 1, 3.1619944e-08, 0.0636621639, 3.08044328e-08, -0.997971535)
+end)
+AutoFarmSection:NewButton("House #16", "Teleports You To House 16", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(249.66925, 94.1757812, 676.185791, 0.998040378, 1.41641818e-08, 0.0625729933, -1.20269119e-08, 1, -3.45330733e-08, -0.0625729933, 3.37128405e-08, 0.998040378)
+end)
+AutoFarmSection:NewButton("House #17", "Teleports You To House 17", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(164.699158, 94.1758575, 685.424805, 0.996465504, -4.05333989e-09, -0.0840027034, 3.38911477e-09, 1, -8.04978395e-09, 0.0840027034, 7.73663711e-09, 0.996465504)
+end)
+AutoFarmSection:NewButton("House #18", "Teleports You To House 18", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.022034, 94.1757431, 577.117981, -0.999957621, -8.24049184e-09, -0.0092083998, -8.19504109e-09, 1, -4.97359531e-09, 0.0092083998, -4.89792162e-09, -0.999957621)
+end)AutoFarmSection:NewButton("House #19", "Teleports You To House 19", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.050003, 94.1758575, 564.644958, -0.997971535, 1.37914959e-08, -0.0636621639, 1.18024435e-08, 1, 3.1619944e-08, 0.0636621639, 3.08044328e-08, -0.997971535)
+end)
+AutoFarmSection:NewButton("House #20", "Teleports You To House 20", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(249.66925, 94.1757812, 676.185791, 0.998040378, 1.41641818e-08, 0.0625729933, -1.20269119e-08, 1, -3.45330733e-08, -0.0625729933, 3.37128405e-08, 0.998040378)
+end)
+AutoFarmSection:NewButton("House #21", "Teleports You To House 21", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-69.2305679, 94.175766, 566.702759, -0.99917978, -6.76195953e-08, 0.0404935479, -6.75657432e-08, 1, 2.69828804e-09, -0.0404935479, -3.99019498e-11, -0.99917978 )
+end)
+
+AutoFarmSection:NewButton("House #22", "Teleports You To House 22", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.17996407, 94.1757812, 577.488953, -0.994739771, 2.78605263e-08, 0.102434173, 3.78619838e-08, 1, 9.56935935e-08, -0.102434173, 9.90685862e-08, -0.994739771)
+end)
+
+AutoFarmSection:NewButton("House #23", "Teleports You To House 23", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(84.5078583, 93.4358597, 562.899475, -0.998844206, -5.33205373e-08, 0.0480649732, -5.55550947e-08, 1, -4.51544402e-08, -0.0480649732, -4.7772506e-08, -0.998844206)
+end)
+
+AutoFarmSection:NewButton("House #24", "Teleports You To House 24", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.022034, 94.1757431, 577.117981, -0.999957621, -8.24049184e-09, -0.0092083998, -8.19504109e-09, 1, -4.97359531e-09, 0.0092083998, -4.89792162e-09, -0.999957621)
+end)AutoFarmSection:NewButton("House #25", "Teleports You To House 25", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.050003, 94.1758575, 564.644958, -0.997971535, 1.37914959e-08, -0.0636621639, 1.18024435e-08, 1, 3.1619944e-08, 0.0636621639, 3.08044328e-08, -0.997971535)
+end)
+AutoFarmSection:NewButton("House #26", "Teleports You To House 26", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(249.66925, 94.1757812, 676.185791, 0.998040378, 1.41641818e-08, 0.0625729933, -1.20269119e-08, 1, -3.45330733e-08, -0.0625729933, 3.37128405e-08, 0.998040378)
+end)
+AutoFarmSection:NewButton("House #27", "Teleports You To House 27", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(164.699158, 94.1758575, 685.424805, 0.996465504, -4.05333989e-09, -0.0840027034, 3.38911477e-09, 1, -8.04978395e-09, 0.0840027034, 7.73663711e-09, 0.996465504)
+end)
+AutoFarmSection:NewButton("House #28", "Teleports You To House 28", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.022034, 94.1757431, 577.117981, -0.999957621, -8.24049184e-09, -0.0092083998, -8.19504109e-09, 1, -4.97359531e-09, 0.0092083998, -4.89792162e-09, -0.999957621)
+end)AutoFarmSection:NewButton("House #29", "Teleports You To House 29", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.050003, 94.1758575, 564.644958, -0.997971535, 1.37914959e-08, -0.0636621639, 1.18024435e-08, 1, 3.1619944e-08, 0.0636621639, 3.08044328e-08, -0.997971535)
+end)
+AutoFarmSection:NewButton("House #30", "Teleports You To House 30", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(249.66925, 94.1757812, 676.185791, 0.998040378, 1.41641818e-08, 0.0625729933, -1.20269119e-08, 1, -3.45330733e-08, -0.0625729933, 3.37128405e-08, 0.998040378)
+end)
+AutoFarmSection:NewButton("House #31", "Teleports You To House 31", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-69.2305679, 94.175766, 566.702759, -0.99917978, -6.76195953e-08, 0.0404935479, -6.75657432e-08, 1, 2.69828804e-09, -0.0404935479, -3.99019498e-11, -0.99917978 )
+end)
+
+AutoFarmSection:NewButton("House #32", "Teleports You To House 32", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.17996407, 94.1757812, 577.488953, -0.994739771, 2.78605263e-08, 0.102434173, 3.78619838e-08, 1, 9.56935935e-08, -0.102434173, 9.90685862e-08, -0.994739771)
+end)
+
+AutoFarmSection:NewButton("House #33", "Teleports You To House 33", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(84.5078583, 93.4358597, 562.899475, -0.998844206, -5.33205373e-08, 0.0480649732, -5.55550947e-08, 1, -4.51544402e-08, -0.0480649732, -4.7772506e-08, -0.998844206)
+end)
+
+AutoFarmSection:NewButton("House #34", "Teleports You To House 34", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.022034, 94.1757431, 577.117981, -0.999957621, -8.24049184e-09, -0.0092083998, -8.19504109e-09, 1, -4.97359531e-09, 0.0092083998, -4.89792162e-09, -0.999957621)
+end)AutoFarmSection:NewButton("House #35", "Teleports You To House 35", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.050003, 94.1758575, 564.644958, -0.997971535, 1.37914959e-08, -0.0636621639, 1.18024435e-08, 1, 3.1619944e-08, 0.0636621639, 3.08044328e-08, -0.997971535)
+end)
+AutoFarmSection:NewButton("House #36", "Teleports You To House 36", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(249.66925, 94.1757812, 676.185791, 0.998040378, 1.41641818e-08, 0.0625729933, -1.20269119e-08, 1, -3.45330733e-08, -0.0625729933, 3.37128405e-08, 0.998040378)
+end)
+AutoFarmSection:NewButton("House #37", "Teleports You To House 37", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(164.699158, 94.1758575, 685.424805, 0.996465504, -4.05333989e-09, -0.0840027034, 3.38911477e-09, 1, -8.04978395e-09, 0.0840027034, 7.73663711e-09, 0.996465504)
+end)
+AutoFarmSection:NewButton("House #38", "Teleports You To House 38", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.022034, 94.1757431, 577.117981, -0.999957621, -8.24049184e-09, -0.0092083998, -8.19504109e-09, 1, -4.97359531e-09, 0.0092083998, -4.89792162e-09, -0.999957621)
+end)AutoFarmSection:NewButton("House #39", "Teleports You To House 39", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.050003, 94.1758575, 564.644958, -0.997971535, 1.37914959e-08, -0.0636621639, 1.18024435e-08, 1, 3.1619944e-08, 0.0636621639, 3.08044328e-08, -0.997971535)
+end)
+AutoFarmSection:NewButton("House #40", "Teleports You To House 40", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(249.66925, 94.1757812, 676.185791, 0.998040378, 1.41641818e-08, 0.0625729933, -1.20269119e-08, 1, -3.45330733e-08, -0.0625729933, 3.37128405e-08, 0.998040378)
+end)
+AutoFarmSection:NewButton("House #41", "Teleports You To House 41", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-69.2305679, 94.175766, 566.702759, -0.99917978, -6.76195953e-08, 0.0404935479, -6.75657432e-08, 1, 2.69828804e-09, -0.0404935479, -3.99019498e-11, -0.99917978 )
+end)
+
+AutoFarmSection:NewButton("House #42", "Teleports You To House 42", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.17996407, 94.1757812, 577.488953, -0.994739771, 2.78605263e-08, 0.102434173, 3.78619838e-08, 1, 9.56935935e-08, -0.102434173, 9.90685862e-08, -0.994739771)
+end)
+
+AutoFarmSection:NewButton("House #43", "Teleports You To House "43, function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(84.5078583, 93.4358597, 562.899475, -0.998844206, -5.33205373e-08, 0.0480649732, -5.55550947e-08, 1, -4.51544402e-08, -0.0480649732, -4.7772506e-08, -0.998844206)
+end)
+
+AutoFarmSection:NewButton("House #44", "Teleports You To House 44", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.022034, 94.1757431, 577.117981, -0.999957621, -8.24049184e-09, -0.0092083998, -8.19504109e-09, 1, -4.97359531e-09, 0.0092083998, -4.89792162e-09, -0.999957621)
+end)AutoFarmSection:NewButton("House #45", "Teleports You To House 45", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.050003, 94.1758575, 564.644958, -0.997971535, 1.37914959e-08, -0.0636621639, 1.18024435e-08, 1, 3.1619944e-08, 0.0636621639, 3.08044328e-08, -0.997971535)
+end)
+AutoFarmSection:NewButton("House #46", "Teleports You To House 46", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(249.66925, 94.1757812, 676.185791, 0.998040378, 1.41641818e-08, 0.0625729933, -1.20269119e-08, 1, -3.45330733e-08, -0.0625729933, 3.37128405e-08, 0.998040378)
+end)
+AutoFarmSection:NewButton("House #47", "Teleports You To House 47", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(164.699158, 94.1758575, 685.424805, 0.996465504, -4.05333989e-09, -0.0840027034, 3.38911477e-09, 1, -8.04978395e-09, 0.0840027034, 7.73663711e-09, 0.996465504)
+end)
+AutoFarmSection:NewButton("House #48", "Teleports You To House 48", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.022034, 94.1757431, 577.117981, -0.999957621, -8.24049184e-09, -0.0092083998, -8.19504109e-09, 1, -4.97359531e-09, 0.0092083998, -4.89792162e-09, -0.999957621)
+end)AutoFarmSection:NewButton("House #49", "Teleports You To House 49", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.050003, 94.1758575, 564.644958, -0.997971535, 1.37914959e-08, -0.0636621639, 1.18024435e-08, 1, 3.1619944e-08, 0.0636621639, 3.08044328e-08, -0.997971535)
+end)
+AutoFarmSection:NewButton("House #50", "Teleports You To House 50", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(249.66925, 94.1757812, 676.185791, 0.998040378, 1.41641818e-08, 0.0625729933, -1.20269119e-08, 1, -3.45330733e-08, -0.0625729933, 3.37128405e-08, 0.998040378)
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- AutoFarm
+    local AutoFarme = Window:NewTab("Teleports Shops")
+    local AutoFarmeSection = AutoFarme:NewSection("Teleports Shops")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AutoFarmeSection:NewButton("Sell", "Teleports You To Sell", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.1860199, 92.8757782, 766.476929, -0.998952568, 7.82899434e-08, -0.045758117, 7.54835625e-08, 1, 6.30587706e-08, 0.045758117, 5.95387313e-08, -0.998952568)
+end)
+
+AutoFarmeSection:NewButton("Bag Shop", "Teleports You To Bag Shop", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(557.55249, 92.8757782, 867.732544, -0.999358714, -2.80480741e-08, 0.0358072333, -2.80818355e-08, 1, -4.39934505e-10, -0.0358072333, -1.44518519e-09, -0.999358714)
+end)
+
+AutoFarmeSection:NewButton("Pet Shop", "Teleports You To Pet Shop", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(644.314209, 92.8757782, 867.583984, -0.998106539, -6.36375432e-08, -0.0615092926, -6.38513171e-08, 1, 1.50991608e-09, 0.0615092926, 5.43450662e-09, -0.998106539)
+end)
+
+
+AutoFarmeSection:NewButton("Costume Craze", "Teleports You To Custum Craze", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(468.526001, 92.8757782, 875.914124, -0.999145329, -2.90205548e-08, 0.0413359702, -3.13223012e-08, 1, -5.50362671e-08, -0.0413359702, -5.62839659e-08, -0.999145329)
+end)
+
+
+
+
+
+
+
+
+local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player")
+ 
+    PlayerSection:NewSlider("Walkspeed", "Changes the walkspeed", 250, 16, function(v)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+    end)
+ 
+    PlayerSection:NewSlider("JumpPower", "Changes the jumpPower", 250, 50, function(v)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+    end)
+
+
+	PlayerSection:NewButton("Reset WS/JP", "Resets to all defaults", function()
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end)
+
+
+local Settingss = Window:NewTab("Credits")
+    local SettingssSection = Settingss:NewSection("Soncoolgamer123")
+
+
+
+
+
+
+
+local Settings = Window:NewTab("Settings")
+    local SettingsSection = Settings:NewSection("Settings")
+
+
+SettingsSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.V, function()
+	Library:ToggleUI()
+end)
